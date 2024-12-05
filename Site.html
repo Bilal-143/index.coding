@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <link rel="stylesheet" href="Style.css" />
+  <style>
+    body {
+      background-image: url(image.jpg);
+    
+      
+    }
+    .left {
+      
+      width: 5%;
+      display: inline block;
+      left: 34px;
+      top: 20px;
+      font-size: 50px;
+    }
+    .left img{
+      width: 120px;
+      padding: 10px;
+      height: 90px;
+      border-radius: 700px;
+      
+    }
+    .mid {
+      /* border: 5px solid white; */
+      background-color: black;
+      display:block;
+      width: 40%;
+      margin: 20px auto;
+      float: left;
+      padding: 0px;
+      
+    position: absolute;
+    top: 0;
+    right: 20%;
+
+
+    }
+    .right {
+      /* border: 2px solid black; */
+      display: inline-block;
+
+      position: absolute;
+      right: 34px;
+      top: 20px;
+    }
+    .navbar{
+      display: inline-block;
+      
+    }
+    .navbar li{
+      display: inline-block;
+      color: darkblue;
+  }
+  .navbar li a{
+    color: red;
+  
+    padding: 34px 20px;
+  }
+  .navbar li a:hover{
+    
+    color: white;
+    text-decoration: underline;
+
+  }
+  .logo{
+    
+  
+      font-size: 70px;
+      color: white;
+  }
+  .contaner{
+    border: 2px solid white;
+    height: 60%;
+    color: white;
+    margin: 0px 75px;
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 20px;
+    
+  }
+  .form-group input{
+    text-align: center;
+    width: 70%;
+    padding: 2px 2px;
+    margin: 3px;
+    border: 2px solid darkblue;
+  }
+  .contaner button{
+    margin: 30px;
+    width: 255px;
+    display: block;
+  }
+  </style>
+
+  <body>
+    <header class="head1">
+      
+      
+      <div class="logo">B&nbsp;M&nbsp;W&nbsp;</div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+          
+          <li><a href="Services.html">Services</a></li>
+        </ul>
+     
+      </div>
+      <div class="left">
+         
+        <img src="logo.jpg">
+      </div>
+      <div class="right">
+        <button>Cars</button>
+        <button class="">Horse</button>
+      </div>
+    </header> 
+    <div class="contaner">
+      <h1>Join the BMW Showroom</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Name">
+          <input type="text" name="" placeholder="Enter Your Age">
+          <input type="text" name="" placeholder="Enter Your Gender">
+          <input type="text" name="" placeholder="Enter Your Number">
+        </div>
+        <button class="btn">Submit Now</button>
+      </form>
+    </div>
+  </body>
+</html>

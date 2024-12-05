@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+#services{
+    flex-direction: column;
+}
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 50px;
+    padding: 20px;
+    height: auto;
+
+}
+#contact-box form{
+    width: 50%;
+}
+#services .box{
+    margin: 2px 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 215px;
+    padding: 3px 30px;
+}
+#home::before{
+    height: 480px;
+}
+#navbar ul li a{
+    font-size: 2rem;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.primary1{
+    font-size: 30px;
+}
+.btn{
+    font-size: 10px;
+    padding: 4px 8px;
+}
